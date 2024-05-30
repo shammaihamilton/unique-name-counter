@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-README
 
 
 Overview:
