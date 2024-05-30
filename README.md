@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 README
 
 
@@ -106,6 +107,3 @@ add_name_to_set: Adds normalized names to a set.
 is_one_person: Checks if the set contains only one unique person.
 extract_last_name_from_full_name: Extracts the last name from the full name on the card.
 extract_first_name_from_full_name: Extracts the first name from the full name on the card.
-
-
-
