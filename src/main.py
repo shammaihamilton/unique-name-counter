@@ -50,8 +50,7 @@ def main():
                                             "Egli levi Deborah lea"))  # 1
     print("case 21 - first name is first in card, expect 1: ",
           name_processor.count_unique_names("Deborah", "Egli levi", "Deborah", "Egli levi", "Egli levi Deborah"))  # 1
-
-    print("case 22 - name with typo  and nickname 2: ",
+    print("case 22 - name with non alphabetical and nickname 2: ",
           name_processor.count_unique_names("De3bor$ah re%r", "E@gni", "Debbie4", "Egn888i", "Miche&le ntr Egni"))
 
 if __name__ == "__main__":
