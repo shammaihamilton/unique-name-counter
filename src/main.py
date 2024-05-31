@@ -38,7 +38,6 @@ def main():
     print("case 16 - different names, expect 2: ",
           name_processor.count_unique_names("Deborah rer", "Egni", "Debbie", "Egni", "Michele ntr Egni"))  # 2
 
-    # Original test cases
     print("case 17 - different family names, expect 3: ",
           name_processor.count_unique_names("Deborah", "hamilton", "Deborah", "halton", "Deborah hamiln"))  # 3
     print("case 18 - simple check by remove space, expect 1: ",
@@ -52,6 +51,8 @@ def main():
     print("case 21 - first name is first in card, expect 1: ",
           name_processor.count_unique_names("Deborah", "Egli levi", "Deborah", "Egli levi", "Egli levi Deborah"))  # 1
 
+    print("case 22 - name with typo  and nickname 2: ",
+          name_processor.count_unique_names("De3bor$ah re%r", "E@gni", "Debbie4", "Egn888i", "Miche&le ntr Egni"))
 
 if __name__ == "__main__":
     main()

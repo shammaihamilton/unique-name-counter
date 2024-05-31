@@ -59,6 +59,9 @@ class TestNameProcessor(unittest.TestCase):
     def test_nickname_with_different_and_middle_name_in_card(self):
         self.assertEqual(self.name_processor.count_unique_names("Deborah rer", "Egni", "Debbie", "Egni", "Michele ntr Egni"), 2)
 
+    def test_remove_all_non_alphabetical_chars(self):
+        self.assertEqual(self.name_processor.count_unique_names("De3bor$ah re%r", "E@gni", "Debbie4", "Egn888i", "Miche&le ntr Egni"), 2)
+
 
 if __name__ == '__main__':
     unittest.main()
